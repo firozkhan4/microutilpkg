@@ -1,0 +1,20 @@
+{
+  "name": "microutils",
+  "version": "1.0.0",
+  "description": "All utils class and method for microservice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/firozkhan4/microutils.git"
+  },
+  "author": "Firoz Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firozkhan4/microutils/issues"
+  },
+  "homepage": "https://github.com/firozkhan4/microutils#readme"
+}
