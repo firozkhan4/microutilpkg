@@ -15,10 +15,12 @@ export default class Repository {
   }
 
   async exists(whereClause, options = {}) {
-    return await this.model.exists({
+    const count = await this.model.count({
       where: whereClause,
       ...options
     });
+
+    return count > 0;
   }
 
   async findOne(whereClause, options = {}) {
